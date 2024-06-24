@@ -2537,4 +2537,8 @@ public class RmsServiceImpl implements RmsService {
 		}
 		return apiResponse;
 	}
+
+	public static void main(String[] args){
+
+	}
 }
