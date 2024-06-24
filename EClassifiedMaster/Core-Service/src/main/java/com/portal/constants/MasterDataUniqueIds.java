@@ -1,0 +1,25 @@
+package com.portal.constants;
+
+public enum MasterDataUniqueIds {
+
+	GDCLASSIFIEDTYPES("id"), GDCLASSIFIEDSUBCATEGORY("id"), GDCLASSIFIEDSCHEMES("id"), GDCLASSIFIEDLANGUAGES(
+			"id"), GDCLASSIFIEDEDITIONS("id"), GDCLASSIFIEDADSSUBTYPES("id"), GDCLASSIFIEDADSTYPES(
+					"id"), GDCLASSIFIEDCATEGORY("id"), STATE("gd_state"), UMUSERS("user_id"), GDSETTINGSDEFINITIONS(
+							"setting_group_name"), GDHELPMANUALTYPES("manual_type_id"),GDSTATES("state_code"),GDCITY("id"),GDPAYMENTGATEWAYCONFIG("provider"),
+								GDCLASSIFIEDGROUP("id"),GDCLASSIFIEDSUBGROUP("id"),
+								GDCLASSIFIEDCHILDGROUP("id"),BOOKINGUNITS("id"),GDPAYMENTMODE("id"),GDSALESOFFICE("id"),GDCLASSIFIEDDISTRICT("id"),GDCLASSIFIEDDIVISION("id"),
+								GDEDITIONTYPE("id"),GDRMSEDITIONS("id"),GDRMSEDITIONTYPE("id"),
+								GDRMSFIXEDFORMATS("id"),GDRMSPAGEPOSITIONS("id"),GDRMSPOSITIONINGDISCOUNT("id"),
+								GDRMSMULTIDISCOUNT("id"),GDRMSSCHEMES("id"),GDPAYMENTMETHOD("id"),GDCUSTOMERTYPES("id"),GDRMSFORMATTYPES("id"),
+								GDRMSGENERATEDBYOTHERS("id");
+
+	public final String master;
+
+	private MasterDataUniqueIds(String master) {
+		this.master = master;
+	}
+
+	public String getValue() {
+		return master;
+	}
+}
